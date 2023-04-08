@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Reply from AI {% endblock %}
+
+{% block content %}
+<div class="card mb-3 reply-space">
+    <img src="/static/img/reply.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Reply from AI:</h5>
+      <p class="card-text">{{ reply }}</p>
+      <p class="card-text"><small class="text-body-secondary">time use:{{t}} ms</small></p>
+    </div>
+  </div>
+{% endblock %}
+

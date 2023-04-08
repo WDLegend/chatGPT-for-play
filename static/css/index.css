@@ -1,0 +1,27 @@
+body {
+    background: url(/static/img/background.png) no-repeat;
+    background-attachment:fixed;
+}
+
+.chat-space {
+    opacity: 0.9;
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-right: 7%;
+}
+
+.reply-space {
+    opacity: 0.9;
+    margin-top: 1%;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+.info {
+    opacity: 0.9;
+    position:absolute;
+    margin-left: 5%;
+    margin-top:2%;
+}
+
+ 
